@@ -23,21 +23,22 @@ export default {
   },
   data() {
     const base =
-      'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-'
+      "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-";
     return {
       projects: [
-        { title: 'Proyecto 1', link: '/reto-a' },
-        { title: 'Proyecto 2', link: '/reto-b' },
-        { title: 'Proyecto 3', link: '/reto-c' }
+        { title: "Proyecto 1", link: "/reto-a" },
+        { title: "Proyecto 2", link: "/reto-b" },
+        { title: "Proyecto 3", link: "/reto-c" },
+        { title: "Proyecto 4", link: "/reto-d" }
       ],
       plugins: [
-        { title: 'pwa', link: base + 'pwa' },
-        { title: 'router', link: base + 'router' },
-        { title: 'vuex', link: base + 'vuex' }
+        { title: "pwa", link: base + "pwa" },
+        { title: "router", link: base + "router" },
+        { title: "vuex", link: base + "vuex" }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
